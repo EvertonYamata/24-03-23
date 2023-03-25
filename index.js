@@ -25,7 +25,7 @@ app.get('/pessoa',(req,res)=>{
    
     res.send(pessoa1)
 })
-let soma = 0
+
 app.get('/pessoas',(req,res)=>{
     
     res.send(JSON.stringify([pessoa1,pessoa2,pessoa3]))
